@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* roboto-font */
+*{ margin: 0;
+   padding: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+padding: 21px 32px 21px 32px;
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+border: none;
+cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background: red;
+}
+
+
+#hero{
+    height: 919px;
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#hero .hero-content{
+    width: 1023px;
+}
+
+#hero .hero-content .subtitle{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 16px;
+}
+
+#hero .hero-content .heading{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+
+#hero .hero-content .content{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+}
+
+#card-box{
+    width: 1320px;
+    margin: 180px auto;
+}
+
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6; 
+
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container{
+margin-top: 48px;
+display: flex;
+justify-content: space-between;
+}
+
+.card{
+max-width: 424px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.card .img-box{
+    width: 100%;
+}
+
+.card .img-box img{
+    width: 100%;
+}
+
+.card .shop{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card .shop:hover{
+    color: white;
+    background: black;
+}
+
+.card-container h1{
+color: rgb(16, 16, 16);
+font-family: roboto;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.card-container p{
+    color: rgb(16, 16, 16);
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
